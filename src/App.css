@@ -1,0 +1,146 @@
+
+body {
+  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png)  
+}
+ 
+.box {
+ display: inline-block;       
+ border: 1px solid black;
+ width: 15px;
+ height: 15px;
+ margin-left: -1px;
+ margin-bottom: -1px;
+ }
+
+.off {
+ background-color: lightgray;
+}
+
+.on {
+ background-color: rgb(59, 126, 59);
+}
+ 
+.box:hover { 
+ background: rgb(202, 69, 16);
+}
+
+.center {
+ margin: auto;
+ display: table;
+ margin-top: 10px;
+}
+
+.grid {
+ width: 150px;
+ line-height: 0;
+ margin: auto;
+ box-shadow: 0px 0px 20px rgb(156, 37, 37);
+ margin-top: 20px;
+}
+ 
+h1, h2, h3, h4 {
+ color: white;
+ margin: auto;
+ text-align: center;
+ width: 50%;
+ margin-top: 10px;
+}
+
+h4 {
+ margin-top: 0px;
+}
+.game_area{
+  position: relative;
+  margin: 0px auto;
+  width: 1300px;
+  height: 1300px;
+  border: 2px solid #000; 
+}
+.snake-dot{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: rgb(99, 231, 95);
+  border: 1px solid #fff;
+ 
+}
+.snakenext-dot10{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: rgb(90, 121, 225);
+  border: 1px solid #fff;
+ 
+}
+.snakenext-dot{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: rgb(66, 88, 61);
+  border: 1px solid #fff;
+ 
+}
+.snakenext-dot9{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: rgb(238, 51, 222);
+  border: 1px solid #fff;
+}
+.snakenext-dot11{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: rgb(64, 151, 52);
+  border: 1px solid #fff;
+}
+.snakenext-dot3{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: rgb(219, 32, 110);
+  border: 1px solid #fff;
+}
+.snakenext-dot4{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: rgb(32, 144, 219);
+  border: 1px solid #fff;
+}
+.snakenext-dot5{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: rgb(143, 145, 41);
+  border: 1px solid #fff;
+}
+.snakenext-dot6{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: rgb(220, 103, 49);
+  border: 1px solid #fff;
+}
+.snakenext-dot7{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: rgb(220, 103, 49);
+  border: 1px solid #fff;
+}
+.snakenext-dot8{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: rgb(11, 99, 23);
+  border: 1px solid #fff;
+}
+.snake-food{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background: rgb(209, 56, 56);
+  border: 1px solid #fff;
+ 
+}
